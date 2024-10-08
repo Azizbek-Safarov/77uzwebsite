@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="public/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./src/input.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+
+<body>
+  <header class="container mx-auto px-4 flex items-center justify-between">
+    <!-- language change dropdown menu -->
+    <div class="relative flex items-center text-left gap-6">
+      <button
+        class="inline-flex justify-center items-center gap-1 w-full  px-4 py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 text-sm"
+        id="language-button">
+        <img src="./src/img/russian language.svg" alt="Russian language button icon">
+        Русский
+        <div
+          class="origin-top-right absolute left-2 top-6 mt-2 w-[150px] rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden"
+          id="language-dropdown">
+          <div class="py-1">
+            <a href="#"
+              class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 border-b-2 border-b-gray-200 ">Русский</a>
+            <a href="#"
+              class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">O’zbekcha</a>
+          </div>
+        </div>
+      </button>
+
+      <div class="flex justify-center items-center">
+
+        <p class="w-[150px] ">+998 88 500 50 00</p>
+      </div>
+    </div>
+    <a href="#"> <img src="./src/img/Logo.svg" alt="logo"></a>
+    <div></div>
+  </header>
+  <main></main>
+  <footer></footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
