@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?belal9');
+  src:  url('fonts/icomoon.eot?belal9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?belal9') format('truetype'),
+    url('fonts/icomoon.woff?belal9') format('woff'),
+    url('fonts/icomoon.svg?belal9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Blue--ball .path1:before {
+  content: "\e900";
+  color: rgb(56, 143, 243);
+}
+.icon-Blue--ball .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(56, 143, 243);
+}
+.icon-Blue--ball .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(56, 143, 243);
+  opacity: 0.64;
+}
+.icon-Blue--ball .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(56, 143, 243);
+  opacity: 0.48;
+}
+.icon-Chevron-double:before {
+  content: "\e904";
+}
+.icon-hear-unfilled:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-Chevron-right:before {
+  content: "\e906";
+  color: #b8bbbd;
+}
+.icon-bag-2:before {
+  content: "\e907";
+  color: #388ff3;
+}
+.icon-Bag:before {
+  content: "\e908";
+  color: #388ff3;
+}
+.icon-Moto:before {
+  content: "\e909";
+  color: #388ff3;
+}
+.icon-Travel:before {
+  content: "\e90a";
+  color: #388ff3;
+}
+.icon-Kitchen-techs:before {
+  content: "\e90b";
+  color: #388ff3;
+}
+.icon-Pc:before {
+  content: "\e90c";
+  color: #388ff3;
+}
+.icon-Refrigerator:before {
+  content: "\e90d";
+  color: #388ff3;
+}
+.icon-Buildings:before {
+  content: "\e90e";
+  color: #388ff3;
+}
+.icon-Chemistry:before {
+  content: "\e90f";
+  color: #388ff3;
+}
+.icon-Car:before {
+  content: "\e910";
+  color: #388ff3;
+}
+.icon-Pencil:before {
+  content: "\e911";
+  color: #388ff3;
+}
+.icon-Jewelry:before {
+  content: "\e912";
+  color: #388ff3;
+}
+.icon-Heart-beat:before {
+  content: "\e913";
+  color: #388ff3;
+}
+.icon-Beauty:before {
+  content: "\e914";
+  color: #388ff3;
+}
+.icon-Plant:before {
+  content: "\e915";
+  color: #388ff3;
+}
+.icon-Car-servis:before {
+  content: "\e916";
+  color: #388ff3;
+}
+.icon-Cross:before {
+  content: "\e917";
+  color: #388ff3;
+}
+.icon-Baby:before {
+  content: "\e918";
+  color: #388ff3;
+}
+.icon-Man:before {
+  content: "\e919";
+  color: #388ff3;
+}
+.icon-Women:before {
+  content: "\e91a";
+  color: #388ff3;
+}
+.icon-Search:before {
+  content: "\e91b";
+  color: #d5d8db;
+}
+.icon-Chevron:before {
+  content: "\e91c";
+}
+.icon-Log-In:before {
+  content: "\e91d";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
