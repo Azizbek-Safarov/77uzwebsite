@@ -10,56 +10,109 @@
   <link rel="stylesheet" href="./assets/icomoon/style.css">
 </head>
 
-<body class="">
-  <header class="container mx-auto px-4 py-7  flex items-center justify-between relative">
-    <!-- language change dropdown menu -->
-    <div class="relative flex items-center text-left gap-6">
-      <button
-        class="inline-flex justify-center items-center gap-1 w-full  px-4 py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 text-sm"
-        id="language-button">
-        <img src="./src/images/Ru Language.svg" alt="Russian language button icon">
-        Русский
-        <div
-          class="origin-top-right absolute left-2 top-6 mt-2 w-[150px] rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden"
-          id="language-dropdown">
-          <div class="py-1">
-            <a href="#"
-              class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 border-b-2 border-b-gray-200 "><img
-                src="./src/images/Ru Language.svg" alt="Russian Language Icon">Русский</a>
-            <a href="#"
-              class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"><img
-                src="./src/images/Uzb Language.svg" alt="Uzbek Language Icon">O’zbekcha</a>
+<body class="bg-[#F0F3F7]">
+  <header class=" bg-white h-[80px]">
+    <div class="container mx-auto flex py-5 items-center justify-between relative ">
+      <!-- language change dropdown menu -->
+      <div class="relative flex items-center text-left gap-6 ">
+        <button
+          class="inline-flex justify-center items-center gap-1 w-full  px-4 py-2 bg-white font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 text-sm"
+          id="language-button">
+          <img src="./src/images/Ru Language.svg" alt="Russian language button icon">
+          Русский
+          <div
+            class="origin-top-right absolute left-2 top-6 mt-2 w-[150px] rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden"
+            id="language-dropdown">
+            <div class="py-1">
+              <a href="#"
+                class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 border-b-2 border-b-gray-200 "><img
+                  src="./src/images/Ru Language.svg" alt="Russian Language Icon"></a>
+              <a href="#"
+                class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"><img
+                  src="./src/images/Uzb Language.svg" alt="Uzbek Language Icon"></a>
+            </div>
           </div>
+        </button>
+
+        <div class="flex justify-center items-center">
+
+          <p class="w-[150px] font-medium">+998 88 500 50 00</p>
         </div>
-      </button>
-
-      <div class="flex justify-center items-center">
-
-        <p class="w-[150px]">+998 88 500 50 00</p>
       </div>
-    </div>
 
-    <!-- logo -->
-    <div class="flex items-center justify-center">
-      <a href="#" class="absolute top-0"><img src="./src/images/Logo.png" alt="logo"></a>
-    </div>
-
-    <!-- Header buttons -->
-    <div class="flex items-center w-[270px] gap-4">
-      <div class="flex items-center gap-2 border-r border-gray-600 py-2 px-4">
-        <span class="icon-heart"></span>
-        <p class="text-3xl">Избранные</p>
+      <!-- logo -->
+      <div class="flex items-center justify-center">
+        <a href="#" class="absolute top-0"><img src="./src/images/Logo.png" alt="logo"></a>
       </div>
-      <div class="py-2 px-5">
-        <button class="font-sans flex items-center gap-2 border-2 rounded-lg bg-slate-600 text-white py-2 px-4">
-          <p>Войти</p>
+
+      <!-- Header buttons -->
+      <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2 border-r border-gray-300 py-2 px-4">
+          <span class="icon-heart text-blue-500"></span>
+          <p class="font-semibold">Избранные</p>
+        </div>
+        <button
+          class="font-sans flex items-center justify-center gap-2 rounded-lg bg-slate-200 text-black py-2 px-4 w-[120px] h-[40px]">
+          <p class="font-semibold">Войти</p>
           <i class="icon-Log-In"></i>
         </button>
       </div>
     </div>
-
   </header>
-  <main></main>
+
+  <main>
+    <section class="mt-[90px] mb-[65px] relative flex items-center justify-center mx-8 ">
+      <div class="bg-white absolute top-0 w-full">
+
+        <!-- Search Bar -->
+         <div class="flex justify-center">
+          <form class="absolute top-[-30px] min-w-md w-[580px]">   
+            <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+            <div class="relative">
+                <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                    </svg>
+                </div>
+                <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="What you searching for?" required />
+                <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+            </div>
+        </form>
+      </div>
+
+        <!-- Section content -->
+         <div class="flex flex-col items-center pt-[45px] pb-10">
+          <h1>Category</h1>
+          <p>You can choose anything you want from here</p>
+         </div>
+
+        <!-- category begin -->
+        <div>
+          <!-- first category -->
+          <div class="relative bg-white py-[22px] pr-3 flex items-center justify-between w-[335px] shadow-customdiv rounded-xl border border-[#EAEDF0]">
+            <div class="absolute left-[-30px] bg-white p-4 rounded-xl shadow-custom border border-[#EAEDF0]">
+              <i class="icon-Women text-3xl"></i>
+            </div>
+            <div class="flex flex-col items-start pl-11">
+              <h3>Для женщин</h3>
+              <p>4 147 объявлений</p>
+            </div>
+
+            <i class="icon-Chevron-right"></i>
+
+          </div>
+          <!-- Firs category until here -->
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div>
+        <p></p>
+      </div>
+    </section>
+  </main>
   <footer></footer>
 
 

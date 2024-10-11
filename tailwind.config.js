@@ -1,17 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{html,js}', 
+    './*.html',              
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'], 
       },
-      colors: {
-        primary: '#3490dc',  
+      boxShadow: {
+        'icon': '0 4px 20px #00000033', 
+        'customdiv' : '0 4px 16px #00000008',
+      },
     },
   },
   plugins: [],
-}
-}
+};
