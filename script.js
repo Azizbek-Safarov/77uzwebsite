@@ -1,6 +1,6 @@
-const languageButton = document.getElementById('language-button');
-const languageDropdown = document.getElementById('language-dropdown');
+const languageButton = document.getElementById("language-button");
+const languageDropdown = document.getElementById("language-dropdown");
 
-languageButton.addEventListener('click', () => {
-  languageDropdown.classList.toggle('hidden');
+languageButton.addEventListener("click", () => {
+  languageDropdown.classList.toggle("hidden");
 });
